@@ -52,8 +52,8 @@ Installing
 A step by step series of examples that tell you have to get a development env running
 
 >
-cd project-6
-npm install
+    cd project-6
+    npm install
 >
 
 Launch Ganache:
@@ -61,23 +61,23 @@ Launch Ganache:
 ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
 In a separate terminal window, Compile smart contracts:
 >
-truffle compile
+    truffle compile
 >
 
 This will create the smart contract artifacts in folder build\contracts.
 
 Migrate smart contracts to the locally running blockchain, ganache-cli:
 >
-truffle migrate
+    truffle migrate
 >
 
 Test smart contracts:
 >
-truffle test
+    truffle test
 >
 All 10 tests should pass.
 
 In a separate terminal window, launch the DApp:
 >
-npm run dev
+    npm run dev
 >
